@@ -4,17 +4,19 @@ The problem is of forecasting future web traffic for approximately 145,000 Wikip
 
 ## Fractal
 A curve or geometrical figure, each part of which has the same statistical character as the whole.<br>
-![Fractal]()
+![Fractal](https://github.com/Varchita-Lalwani/Web-Traffic-Time-Series-Forcasting/blob/main/fractal.jpg)
 
 To evaluate whether data traffic traces follow heavy-tail distributions – an indication of fractal behavior.<br>
 Heavy-tail distributions :-  probability distributions those have heavier tails than the exponential distribution. <br> 
 Example :- pareto , weibull etc. <br>
 
-![Time Series Plot]()
+![Time Series Plot](https://github.com/Varchita-Lalwani/Web-Traffic-Time-Series-Forcasting/blob/main/time-series-plot.png)
 
-![Weibull distribution for above time series]()
+![Weibull distribution for above time series](https://github.com/Varchita-Lalwani/Web-Traffic-Time-Series-Forcasting/blob/main/Weibull%20distribution%20for%20above%20time%20series.png)
 
-every datapoint is fractal. The pattern is repeating.
+Every datapoint is fractal. The pattern is repeating.<br>
+
+![Hits of only monday for a particular datapooint](https://github.com/Varchita-Lalwani/Web-Traffic-Time-Series-Forcasting/blob/main/data%20of%20every%20monday.png)
 
 ## Methodology 
 
@@ -34,5 +36,7 @@ Normalization of the series by deducting the average value, Zr (where r=1..n), f
 Creating a cumulative time series Y1=Z1+Zr, where r=2..n<br>
 Calculating the magnitude of the cumulative time series R=max(Y1..Yn)-min(Y1..Yn) <br>
 Dividing the magnitude of the cumulative time series by the standard deviation (S) <br>
+
+![Prediction](https://github.com/Varchita-Lalwani/Web-Traffic-Time-Series-Forcasting/blob/main/Prediction.PNG)
 
 
